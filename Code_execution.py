@@ -56,7 +56,83 @@
 #------------------------------------------------------------
 
 #STRING METHODS
-course = 'Python for Beginners'
-print(len(course))
-print(course.upper())
-print(course.lower())
+# course = 'Python for Beginners'
+# print(len(course))
+# print(course.upper())
+# print(course.lower())
+# print(course.find('B'))
+# print(course.find('Python'))
+# print(course.replace('Beginners', 'Absolute Beginners'))
+# print(course.replace('f', 'g'))
+# print('Python' in course)
+
+#------------------------------------------------------------
+#ARITHMETIC OPERATIONS
+# print(10 + 6)
+# print(10 / 6)
+# print(10 // 6)
+# print(10 % 6)
+# print(10 ** 6)
+# x = 10
+# x = x + 3
+# x -= 3
+# print(x)
+
+#-------------------------------------------------------------
+#OPERATOR PRECEDENCE
+# x = (10 + 3) * 2 ** 2
+# print(x)
+# y = (2 + 3) * 10 - 3
+# print(y)
+#parenthesis()
+#the order of operations
+#exponentiation 2 ** 3
+#multiplication or division
+#addition or subtraction
+
+#-------------------------------------------------------------
+#MATH FUNCTION
+# x = 2.9
+# print(round(x))
+# print(abs(-2.9))
+
+# import math
+# print(math.ceil(2.9))
+# check out python 3 math module on Google for more, this is useful for financial or math projects.
+
+#--------------------------------------------------------------------------------------------------------
+#IF STATEMENTS
+# is_hot = False
+# is_cold = True
+# if is_hot:
+#     print("It's a hot day")
+#     print('Drink plenty of water')
+# elif is_cold:
+#     print("It's a cold day")
+#     print('Wear warm clothes')
+# else:
+#     print("It's a lovely day")
+# print('enjoy your day')
+
+#-------------------------------------------------------------------
+#LOGIC OPERATORS
+# has_high_income = True
+# has_good_credit = True
+# has_criminal_records = False
+#
+# if has_high_income and has_good_credit:
+#     print('Eligible for loan')
+#
+# if has_high_income or has_good_credit:
+#     print('Eligible for loan')
+#
+# if has_high_income and not has_criminal_records:
+#     print('Eligible for loan')
+#
+# # COMPARISON OPERATORS
+# temperature = 30
+# if temperature > 30:
+#     print("It's a hot day")
+# else:
+#     print("It's not a hot day")
+
